@@ -1,0 +1,70 @@
+.formularz {
+    display: flex;
+    width: 1200px;
+    margin: 20px auto 0 auto;
+    justify-content: center;
+}
+
+.formularz form {
+    width: 260px;
+    border: 2px solid darkmagenta;
+    border-radius: 10px;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+.formularz label {
+    display: block;
+    margin-bottom: 5px;
+    text-transform: uppercase;
+}
+
+.formularz textarea, .formularz input#nazwisko, .formularz input#email {
+    padding: 5px;
+    border-radius: 3px;
+    border: 1px solid #02639a;
+    margin-bottom: 25px;
+    width: 245px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    color: chartreuse;
+}
+
+.formularz input#submit {
+    width: 255px;
+    color: darkgreen;
+    font-size: 14px;
+}
+
+/* 
+table {
+    border-spacing: 15px;
+}
+
+label {
+    color: #3b9710;
+    font-size: 16px;
+    width: 75px;
+    margin-left: 10px;
+}
+
+fieldset {
+    border: 2px solid #026390;
+    background-color: #556b2f;
+    padding: 3px;
+    width: 250px;
+}
+
+legend {
+    color: #b30b2f;
+    background-color: darkorchid;
+    border: 5px solid #02639a;
+    padding: 3px;
+    font-weight: bold;
+    margin-left: -10px;
+}
+
+input{
+    width: 100px;
+    color: darkred;
+} */
